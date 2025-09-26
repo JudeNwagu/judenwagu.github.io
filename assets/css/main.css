@@ -75,7 +75,36 @@ input, select, textarea {
 html{
 	scroll-behavior: smooth;
 }
+.hero-section {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	overflow: hidden;
+	height: 600px;
+	justify-content: space-between;
+}
+.hero-image img {
+	width: 100%;
+	height: auto;
+}
+.text-center {
+	text-align: center;
+}
+.text-start {
+	text-align: left !important;
+}
+.hero-content {
+	width: 50% ;
+	padding-right: 2rem;
+}
+.hero-image {
+	width: 45%;
+	overflow: hidden;
+}
 
+ul {
+	list-style-type: none !important;
+}
 /* Basic */
 
 	@-ms-viewport {
